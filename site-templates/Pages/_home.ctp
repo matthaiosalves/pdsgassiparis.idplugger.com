@@ -81,6 +81,12 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         display: block;
     }
 
+    .rowButton {
+        margin-left: -65px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
     @media(max-width: 1070px) {
         .rowSteps {
             flex-wrap: wrap;
@@ -126,7 +132,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
             </div>
         </div>
 
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center rowButton">
             <a href="/private/users/login" class="btn btn-primary">QUERO PARTICIPAR!</a>
         </div>
     </div>
