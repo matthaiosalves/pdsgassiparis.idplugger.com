@@ -120,6 +120,18 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
     }
 
     @media(max-width: 1070px) {
+        .comoParticipar .boxStep {
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rowButton {
+            margin-left: 0;
+            width: 100%;
+        }
+
         .rowSteps {
             flex-wrap: wrap;
         }

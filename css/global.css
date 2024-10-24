@@ -187,9 +187,6 @@ header .abrirMenu div {
 }
 
 @media (max-width: 1092px) {
-  .comoParticipar .boxStep {
-    margin-bottom: 30px;
-  }
   .comoParticipar .description,
   .comoParticipar .description a {
     min-height: auto;
