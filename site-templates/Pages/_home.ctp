@@ -138,15 +138,15 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
 
         <div class="row rowPremios">
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 boxImagePremio">
-                <img src="imagem-premio.png" alt="">
+                <img src="/front/public/<?= $config->template_version; ?>/images/imagem-premio.png" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <h4>Concorra a uma viagem para Paris,
                     com acompanhante e tudo pago!</h4>
-                <img class="imagemDisney" src="disneysvg.svg" alt="">
+                <img class="/front/public/<?= $config->template_version; ?>/images/imagemDisney" src="disneysvg.svg" alt="">
                 <p>Além da viagem e hospedagem na Cidade Luz, o ganhador receberá também 1 par de ingressos para conhecer a magia da
                     Disneland Paris.</p>
-                <a href="/" class="btn btn-primary">QUERO PARTICIPAR!</a>
+                <a href="/private/users/login" class="btn btn-primary">QUERO PARTICIPAR!</a>
             </div>
         </div>
     </div>
