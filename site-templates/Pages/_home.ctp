@@ -94,7 +94,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         margin-bottom: 50px;
     }
 
-    @media(2000px) {
+    @media(max-width: 2000px) {
         .premio .torre {
             position: absolute;
             top: 550px;
