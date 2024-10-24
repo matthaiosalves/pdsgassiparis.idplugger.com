@@ -125,6 +125,10 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
                 <img src="/front/public/<?= $config->template_version; ?>/images/boa-sorte-mobile.png" alt="" class="d-mobile">
             </div>
         </div>
+
+        <div class="row justify-content-center align-items-center">
+            <a href="/private/users/login" class="btn btn-primary">QUERO PARTICIPAR!</a>
+        </div>
     </div>
 </section>
 <img src="/front/public/<?= $config->template_version; ?>/images/linha-azul.png" alt="" class="linha">
