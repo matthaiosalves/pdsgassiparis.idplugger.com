@@ -94,6 +94,16 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         margin-bottom: 50px;
     }
 
+    @media(2000px) {
+        .premio .torre {
+            position: absolute;
+            top: 550px;
+            right: -49px;
+            width: 300px;
+            z-index: 2;
+        }
+    }
+
     @media(max-width: 1220px) {
         .rowPremios {
             flex-wrap: wrap;
