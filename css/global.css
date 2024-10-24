@@ -1,3 +1,11 @@
+.btn {
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  max-width: 100%;
+}
 header .menu li:nth-last-child(n + 2) a:hover,
 header .menu li:nth-last-child(n + 2) a:focus {
   box-shadow: none !important;
