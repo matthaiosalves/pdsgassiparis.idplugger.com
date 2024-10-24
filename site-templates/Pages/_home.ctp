@@ -144,6 +144,12 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
             display: none;
         }
     }
+
+    @media(max-width: 768px) {
+        .banner {
+            min-height: 480px;
+        }
+    }
 </style>
 
 <section class="banner">
