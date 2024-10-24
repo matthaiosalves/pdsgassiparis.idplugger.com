@@ -82,7 +82,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
     }
 
     .rowButton {
-        margin-left: -65px;
+        margin-left: -38px;
         margin-top: 70px;
         margin-bottom: 50px;
     }
