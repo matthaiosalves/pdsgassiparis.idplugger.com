@@ -6,6 +6,7 @@
   width: 290px;
   max-width: 100%;
 }
+
 header .menu li:nth-last-child(n + 2) a:hover,
 header .menu li:nth-last-child(n + 2) a:focus {
   box-shadow: none !important;
@@ -94,6 +95,7 @@ footer a {
   color: #fff;
   /* border-radius: 50vw; */
   box-shadow: 0 4px 10px #0000004d;
+  background-color: #c50000 !important;
 }
 .btn-secondary {
   /* border-radius: 50vw; */
