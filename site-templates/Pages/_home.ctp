@@ -151,6 +151,6 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         </div>
     </div>
 
-    <img src="torre.png" alt="" class="torre">
+    <img src="/front/public/<?= $config->template_version; ?>/images/torre.png" alt="" class="torre">
 </section>
 <img src="/front/public/<?= $config->template_version; ?>/images/linha-vermelha.png" alt="" class="linha">
