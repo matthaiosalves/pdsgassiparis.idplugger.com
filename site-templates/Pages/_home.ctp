@@ -143,7 +143,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         <div class="row">
             <div class="col-12">
                 <h2 class="title-section text-center special-title">PRÊMIO</h2>
-                <p class="subtitle text-center">Veja abaixo o que o sorteio contempla..</p>
+                <p class="subtitle text-center">Veja abaixo o que o sorteio contempla.</p>
             </div>
         </div>
 
@@ -157,7 +157,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
                 <img class="imagemDisney mb-2" src="/front/public/<?= $config->template_version; ?>/images/disneysvg.svg" alt="">
                 <p class="mb-3">Além da viagem e hospedagem na Cidade Luz, o ganhador receberá também 1 par de ingressos para conhecer a magia da
                     Disneland Paris.</p>
-                <a href="/private/users/login" class="btn btn-primary">QUERO PARTICIPAR!</a>
+                <a href="/private/users/login" class="btn btn-primary mt-4">QUERO PARTICIPAR!</a>
             </div>
         </div>
     </div>
