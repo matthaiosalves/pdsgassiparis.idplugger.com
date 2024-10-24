@@ -147,7 +147,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
             </div>
         </div>
 
-        <div class="row justify-content-center align-items-center rowButton">
+        <div class="row justify-content-center align-items-center rowButton col">
             <a href="/private/users/login" class="btn btn-primary">QUERO PARTICIPAR!</a>
         </div>
     </div>
