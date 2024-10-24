@@ -57,6 +57,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
 
     .premio .imagemDisney {
         width: 235px;
+        margin-top: 10px;
     }
 
     .premio .rowPremios h4 {
