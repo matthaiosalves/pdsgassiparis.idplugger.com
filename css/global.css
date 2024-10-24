@@ -9,7 +9,7 @@
   font-display: swap;
 }
 header {
-  background: linear-gradient(to right, #8d8c8c 30%, #fff 30%);
+  background: linear-gradient(to right, #8d8c8c 27vw, #fff 27vw);
 }
 .btn {
   min-height: 45px;
