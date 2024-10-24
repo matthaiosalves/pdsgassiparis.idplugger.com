@@ -158,10 +158,10 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         </div>
 
         <div class="row rowPremios">
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 boxImagePremio">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 boxImagePremio">
                 <img src="/front/public/<?= $config->template_version; ?>/images/imagem-premio.png" alt="">
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
                 <h4>Concorra a uma viagem para Paris,
                     com acompanhante e tudo pago!</h4>
                 <img class="imagemDisney mb-2" src="/front/public/<?= $config->template_version; ?>/images/disneysvg.svg" alt="">
