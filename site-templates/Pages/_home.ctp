@@ -92,8 +92,13 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
             flex-wrap: wrap;
         }
 
-        .premio .boxImagePremio {
+        .premio .boxImagePremio,
+        .rowParticiparPremios {
             justify-content: center;
+        }
+
+        .rowPremios .description {
+            text-align: center;
         }
     }
 
@@ -165,9 +170,11 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
                 <h4>Concorra a uma viagem para Paris,
                     com acompanhante e tudo pago!</h4>
                 <img class="imagemDisney mb-2" src="/front/public/<?= $config->template_version; ?>/images/disneysvg.svg" alt="">
-                <p class="mb-3">Além da viagem e hospedagem na Cidade Luz, o ganhador receberá também 1 par de ingressos para conhecer a magia da
+                <p class="mb-3 description">Além da viagem e hospedagem na Cidade Luz, o ganhador receberá também 1 par de ingressos para conhecer a magia da
                     Disneland Paris.</p>
-                <a href="/private/users/login" class="btn btn-primary mt-4">QUERO PARTICIPAR!</a>
+                <div class="row rowParticiparPremios">
+                    <a href="/private/users/login" class="btn btn-primary mt-4">QUERO PARTICIPAR!</a>
+                </div>
             </div>
         </div>
     </div>
