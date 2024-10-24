@@ -58,6 +58,7 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         color: #40484c;
         font-size: 27px;
         font-weight: bold;
+        font-family: "Poppins-Black";
     }
 
     .premio .torre {

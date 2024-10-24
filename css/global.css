@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../fonts/poppins-black/Poppins-Black.ttf.eot");
+  src: url("../fonts/poppins-black/Poppins-Black.ttf.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/poppins-black/Poppins-Black.ttf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .btn {
   min-height: 45px;
   display: flex;
@@ -83,6 +94,7 @@ footer a {
 .special-title {
   color: #40484c !important;
   font-size: 42px;
+  font-family: "Poppins-Black";
 }
 .special-title:after {
   background: var(--primary);
