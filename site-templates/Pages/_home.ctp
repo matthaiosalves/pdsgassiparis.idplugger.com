@@ -10,6 +10,11 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         overflow-x: hidden;
     }
 
+    p,
+    .subtitle {
+        color: #787878;
+    }
+
     .banner {
         background-image: url('/front/public/<?= $config->template_version; ?>/images/banner-principal.jpg');
         background-size: cover;
