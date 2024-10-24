@@ -69,11 +69,11 @@ html {
 footer p,
 footer p a,
 footer a {
-  color: #000 !important;
+  color: #ffffff !important;
 }
-/* .special-title {
-  color: #000 !important;
-} */
+.special-title {
+  color: #40484c !important;
+}
 .special-title:after {
   background: var(--primary);
   margin: 10px auto 0;
