@@ -87,6 +87,16 @@ $promotion = $orchestrator->get("promotion/{$config->promotion_id}");
         margin-bottom: 50px;
     }
 
+    @media(max-width: 1220px) {
+        .rowPremios {
+            flex-wrap: wrap;
+        }
+
+        .premio .boxImagePremio {
+            justify-content: center;
+        }
+    }
+
     @media(max-width: 1070px) {
         .rowSteps {
             flex-wrap: wrap;
