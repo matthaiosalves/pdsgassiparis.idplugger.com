@@ -1,0 +1,32 @@
+{{{subtemplates.header}}}
+<meta name="subject" content="{{promotion.name}} - Prêmio Instantâneo - Você ganhou!"/>
+<meta name="active" content="1"/>
+<meta name="to" content="digital@handson-ti.com.br"/>
+<meta name="email_from" content=""/>
+<meta name="name_from" content="{{promotion.name}}"/>
+<table width="100%" border="0" style="border:0;font-family: verdana, arial;padding-left: 30px; padding-right: 30px;">
+    <tr>
+        <td>
+            <p style="text-align: center; font-size: 22px;border-bottom: 2px solid #eaeaea;padding-top: 18px;padding-bottom: 18px;">
+                {{promotion.name}} - VOCÊ FOI PREMIADO(A)!</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-left: 30px; padding-right: 30px;">
+            <p>Olá {{ user.name }}!</p>
+            <br>
+            <p><b>VOCÊ FOI PREMIADO(A) na {{promotion.name}}!</b></p>
+            <br>
+            <p>Ficamos muito felizes com a sua participação. Em até 30 dias você receberá {{sorteado_premio}} no endereço cadastrado na promoção.</p>
+            <br>
+            Utilize o voucher: {{premio_codigo}}
+            <p>Compartilhe o prêmio em suas redes sociais!</p>
+            <br>
+            <p>
+                Obrigado,<br>
+                Equipe {{promotion.name}}
+            </p>
+        </td>
+    </tr>
+</table>
+{{{subtemplates.footer}}}

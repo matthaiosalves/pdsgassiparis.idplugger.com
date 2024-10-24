@@ -1,0 +1,36 @@
+<header>
+    <div class="container py-0 my-auto h-100">
+        <div class="row mx-0 mx-sm-auto h-100">
+            <div class="col-md-2 col-6 my-auto">
+                <div title="Logo"><a title="Home" href="/"><img src="{{images.logomarca}}" alt="{{promotion.name}}"
+                                                                class="img-fluid" title="Home" loading="eager" width="150" height="auto"></a></div>
+            </div>
+            <div class="col-md-10 col-6 my-auto">
+                <nav>
+                    <div class="abrirMenu hidden-lg hidden-md" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <ul class="menu">
+                        {{#menu}}
+                        <li><a title="Sorteios" href="{{url}}" {{#target_blank}} target="_blank"
+                                rel="noreferrer noopener" {{/target_blank}}> {{title}}</a></li>
+                        {{/menu}}
+                        {{#isAuthUser}}
+                        <li class="participar logado">
+                            <a title="Minha Conta" href="/lucky-numbers">MEU PERFIL</a>
+                            <a title="sair" href="/private/users/logout">(sair)</a>
+                        </li>
+                        {{/isAuthUser}}
+                        {{^isAuthUser}}
+                        <li class="participar">
+                            <a title="Participar" href="{{links.login}}">CADASTRE-SE</a>
+                        </li>
+                        {{/isAuthUser}}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

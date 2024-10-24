@@ -1,0 +1,159 @@
+header .menu li:nth-last-child(n + 2) a:hover,
+header .menu li:nth-last-child(n + 2) a:focus {
+  box-shadow: none !important;
+}
+header .menu li.participar.logado {
+  background: none;
+}
+header .menu li.participar:after {
+  display: none !important;
+}
+header .menu li.participar {
+  background-color: var(--primary) !important;
+}
+/* .socials li a {
+  color: #fff;
+}
+header {
+  background: #fff;
+} */
+#faq .btn-link.collapsed[aria-expanded="false"],
+#faq .btn-link.collapsed[aria-expanded="true"],
+#faq .btn-link[aria-expanded="true"] {
+  background-color: #ffffff;
+  text-decoration: none;
+}
+/* Cor de seleção de acordo com a cor primária setada no admin */
+::selection {
+  background-color: var(--primary);
+}
+
+/* Para fazer a transição de ancoragem - Homepage */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 130px;
+}
+
+/* Problema do footer ficar voando em algumas páginas */
+/* calc(Altura da tela inteira - Altura do header - Altura do footer) */
+.scene-form {
+  height: 100%;
+  min-height: calc(100vh - 80px - 200px);
+  margin-top: 50px;
+}
+
+/* No FAQ o elemento já vem com expanded=true */
+#faq .btn-link {
+  min-height: 75px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+#faq .card {
+  border-radius: 30px !important;
+}
+
+#faq .btn-link.collapsed[aria-expanded="true"] {
+  background-color: #fff;
+  text-decoration: none;
+  color: var(--secondary) !important;
+}
+
+#faq .btn-link.collapsed[aria-expanded="false"] {
+  background-color: #fff;
+  text-decoration: none;
+}
+
+#faq .btn-link[aria-expanded="true"] {
+  color: #61270e !important;
+}
+footer p,
+footer p a,
+footer a {
+  color: #000 !important;
+}
+/* .special-title {
+  color: #000 !important;
+} */
+.special-title:after {
+  background: var(--primary);
+  margin: 10px auto 0;
+  border-radius: 25px;
+}
+.btn-primary {
+  font-family: Poppins;
+  color: #fff;
+  /* border-radius: 50vw; */
+  box-shadow: 0 4px 10px #0000004d;
+}
+.btn-secondary {
+  /* border-radius: 50vw; */
+  color: #fff !important;
+  box-shadow: 0 4px 10px #0000004d;
+}
+footer .footer_line {
+  border: none;
+}
+li.participar {
+  background-color: transparent !important;
+}
+header .menu li:nth-last-child(n + 2) a {
+  color: #000 !important;
+}
+/* footer {
+  background-color: #fff !important;
+  min-height: 200px;
+}
+.footer_menu li a {
+  color: #fff !important;
+} */
+
+header .abrirMenu div {
+  background-color: var(--secondary) !important;
+}
+.cadastreSe {
+  max-width: 289px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+  header .menu li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .comoParticipar .boxStep {
+    margin-bottom: 30px;
+  }
+  .comoParticipar .description,
+  .comoParticipar .description a {
+    min-height: auto;
+  }
+  /* header {
+    background-color: #fff;
+  } */
+  header .menu li:nth-last-child(n + 2) a {
+    display: block;
+    padding: 15px 0;
+  }
+
+  header .menu li.participar {
+    border: 1px var(--white) solid;
+    padding: 0;
+    max-width: 220px;
+  }
+
+  header .menu li.participar a {
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,60 @@
+.wheel-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+
+#wheel {
+  border: 10px solid var(--white);
+  border-radius: 50%;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.arrow {
+  position: absolute;
+  top: -10px;
+  left: 52%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 50px solid var(--white);
+}
+
+.center-circle {
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#spinButton {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#spinButton:hover {
+  background-color: var(--primary);
+}
